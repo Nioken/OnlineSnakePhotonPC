@@ -1,0 +1,1056 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b13 (f4c22ff55020) revision 16040495'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 8123 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.0b13\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Nioke/Snake
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53058
+Successfully changed project path to: C:/Users/Nioke/Snake
+C:/Users/Nioke/Snake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 140.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b13 (f4c22ff55020)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nioke/Snake/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006865 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 134.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (146ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008730 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nioke\Snake\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nioke\Snake\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 140.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2017ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (463ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+				TypeCache.Initialize (335ms)
+					TypeCache.ScanAssembly (329ms)
+				ResolveRequiredComponents (16ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (740ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (350.4 KB). Loaded Objects now: 5575.
+Memory consumption went from 0.80 GB to 0.80 GB.
+Total: 5.648600 ms (FindLiveObjects: 0.758400 ms CreateObjectMapping: 0.184200 ms MarkObjects: 4.488900 ms  DeleteObjects: 0.215900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 477479.005776 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dfa48d2d30146be9b30371439a1acb') in 0.379987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.679782 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced7e39c2e6f80629ecad125967cf63') in 0.038091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.056503 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baf39f0e49c0f6dcd62d2846636510c') in 0.036229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.146494 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d51e7df8f427d0f7b0f63bc5683b00') in 0.036578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.050562 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39af2f85521dafde8cb7ff23e93fb73a') in 0.034368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.679243 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a9249e70c207a0ba4bcca9528304a8') in 0.035746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.809655 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eac2c5715aad2e791dadf77d0953a8b') in 0.046271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.211123 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f92a01260dfe138f8f17303bfa6a4e') in 0.035768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.230960 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0074a7bb98ae2a5e538a265af1cd69ff') in 0.035532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.674218 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38679b803b5fa6ba02be63d61adb0e19') in 0.035994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.119436 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9e9bb267f7af2d6fed2168fcf39188') in 0.040606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.747199 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1985d82805bff7e6edca0d3dd0dd55') in 0.035327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.373446 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c78ef6d1f72198f87121363c44bd0') in 0.036664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.268848 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d371ec4568242654161a783afe1aa5e') in 0.036298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.902292 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f304d11a7bb3fab71f1a4231bfd048') in 0.035823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.592662 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d440023c2d8630fb6d510d6bb9d2cb1') in 0.035799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.438396 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eedb98982872e4ebd3e9e8b84b923f') in 0.036848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.254214 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952ab44c4c595312f5bbca278aaaa541') in 0.036971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184004 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32d24798f208f584d89a4ffa76f147b') in 0.035723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797078 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d7ba86d5a95d4a3ee026ff62727d2') in 0.036273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.020701 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881734c23c94bb2daed1190c5951cecb') in 0.036480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.010806 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f788b416842164a9cee875321e728455') in 0.038995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.163331 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442fb49fe4f8814a5c4a42e653f28ea6') in 0.035736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.727067 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9f6a6779285985ff60fd050b99956') in 0.035460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.769385 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773637b3d04702409aba816b048283c') in 0.037856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.387101 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72acb510eab068e366bce221a7fd0a0') in 0.036296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.667954 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c3f00215aeba1504d98d424bf56b90') in 0.036345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.823180 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6fcbdc94aaf0f075f092495aabe3b9') in 0.036225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.227609 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12d05c2fa7e1768f1c72a5df8799902') in 0.035977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.066882 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bafc9c825035707d0d58bb724aede24') in 0.035019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.128308 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e60b176f46e1c528d99578f5bba331') in 0.037867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.897816 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47e43d44c7b977f9c582e135939e53') in 0.036774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.955245 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0827da107eafbc4f58979c39a815e') in 0.034787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.882688 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9500a7d1d1934f0b4b85bf0a8e291f9') in 0.037300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.225828 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b39ef7ee332bcd0f6a27f8d9bc87f7') in 0.035503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.407155 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c460ee7de2913a3d3593edc1e018f1') in 0.035689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.607188 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006f7916fa1eb763fcb43abff9308650') in 0.036040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.323831 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8776ff052f743d6d3c490a62aac7d3') in 0.037585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.593178 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f56c8294f4a6969887a5169f09557b') in 0.036428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.094574 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058c21656a222775436689c0a5b51dd6') in 0.036407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.560206 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f267439d53813765a2b871158836ef') in 0.037369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.290722 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeac81310b151ff0831218e9613c1beb') in 0.035892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.013098 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e398565b876ede483aa28ace097ff51') in 0.035773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.822753 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21895b36bd323d0387ba0f0980bc37') in 0.040120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.428152 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f50db7d126f2ec13486a0c4ab6b815') in 0.038202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.350700 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0a8360a5bcefbeb90341708ccd9daa') in 0.040608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.606638 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b5424de5419314bddd640609ac4d34') in 0.039740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.021578 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14f4b93c6410cbcde53b8da6da4e44b') in 0.037588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.237403 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8eefab1db715a5c250e01ee4298fcb') in 0.036190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.318946 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2d99de6aec564381460264bfc2a598') in 0.036251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.930144 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525ed339f31baac0bdfeb9bb9f0047f5') in 0.035160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.135233 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7289845a77f56dc06bac8c4e9b99527e') in 0.035326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.301092 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4193df86285046392db8d9d4816c32e0') in 0.035809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.046429 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77804551a3b5ebc2d4c1c58b1eaaa9b') in 0.036581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.768628 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c915da7fc742cf135edc8e35f00fe1e2') in 0.036723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.879389 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9085b977c3fa9b654f5b01361202dfd') in 0.038983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.475074 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffadb63eae8ce5e6b4cbd1d247c54155') in 0.039388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.974436 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eb8f7ad54ed41167d2512a98372628') in 0.035980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.372097 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fca01851ab7b0bfd3ed8a53a69ed67') in 0.040305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.207119 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ab3e58d9d401991fb8026f5b79b0ce') in 0.038595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788740 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db09501defee85996690470ae132af8') in 0.037434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.837313 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345b775e6c15f1e23ee26a81814083db') in 0.036733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.997703 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216614aa1236bfca1c7a27f521423a4c') in 0.036949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.406745 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479189303eb727f3bdb60a4468bf2d01') in 0.034938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.055757 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53cf023befe7422e852ac4f2570cb00') in 0.035139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.201321 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2fdb17b82760c41c97fc1430d7387') in 0.033434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.837295 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4300781606f309f1e8c9829ff48ad288') in 0.036155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.019562 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254db68d1769e8ea3b656f56af2949f0') in 0.038752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.059723 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a679ed1aef41c57dce6106aee6f2d3d') in 0.036223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.518632 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d57fe2a3a3b271058709b2524a9eca') in 0.036418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.625212 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da08105b375955bdda95a44c066d5baf') in 0.039100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.199888 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7398f15b502d7cf7d39ba7d2b9090c45') in 0.035759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.372053 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae4ecb4ffa67747e78a9ce03ca97f28') in 0.035122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.603686 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36053c4cd8b4971d5269d9f0322b95e2') in 0.035305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.114462 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8c008bac96391767298ff1a6eac7af') in 0.034869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.098043 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8cc83f6803e14b129c7f6b86731764') in 0.036824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.536261 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d73a9c9c444e052d039bf7ec71ba90d') in 0.035671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.503027 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588827770d5290ae7295b26f7d4e669a') in 0.121532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.896667 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac290a3ba73dcbfc29a1b5467f06870') in 0.035781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.867536 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816b1f3f3b90d74db61e4c77308e8fb4') in 0.035453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.193541 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e75249087132795e988b5b0f9c7b477') in 0.038651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.012265 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ead35bbec8b1094e5e1cefae114a07') in 0.035183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.990839 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dc1e116bea8b23bf97863467b574f0') in 0.035400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.499976 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339fccbe89d6e21e60ef4687a5050288') in 0.035430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.425597 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9154ae2ace9d4b763a10b3257bfa82a') in 0.035215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.035251 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d917e2ef826221f051cd1f2c2c0e3a') in 0.036649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.372520 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9214537ef40fc74d599582c33ba334cf') in 0.037827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.028641 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eb221ff02b6a297958c8fc0a0e1280') in 0.036606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.192350 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5317bdc9b2c7f8f2eb409d4a1c6ff41') in 0.034843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.862421 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8baa9bcb8c13f98926ff68d815a42ed') in 0.035400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.878917 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e94451b184827628e8b2dfd9ae7557f') in 0.036733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.341230 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8654f35b504ab0663ea49e533a7b7a8a') in 0.038702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.793051 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a43846bd79e148d379fb5ce3fed44c5') in 0.035078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.880566 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc8b634c62a50b6795ec677dae36109') in 0.036064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.794372 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbff5d40bc208e3c4de5e02f151f89f7') in 0.035198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.931193 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b072e49d68d8eb49b3ca14cb6be8e30') in 0.034645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.048515 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcb39aaa03cf459f54393917163f8e4') in 0.035021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.271030 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e29abab69bcdf4f0f0695e7c9d8858') in 0.037722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.337169 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa714fd06b12b114908afcb36412724') in 0.047342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.996260 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d33e0eea327c0d735e9bc38dab068') in 0.036409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.983641 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ff34195425015dfb1a9773e39db85f') in 0.036916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.870689 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50aa05fd2347cc3e7643c8c7e7affc4') in 0.044002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.245835 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86506f3b2e3a426424a39df183d61512') in 0.039181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.744341 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2ae6367f989a3ee5b7470fecde2937') in 0.036686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.081419 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3180e8c4ce64023f2fdcbc931b870e4') in 0.035590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.398330 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a2016b414bce76fa1dd5701fee2482') in 0.037737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.990232 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be50ed6d317970e1d5e2a23460dd14eb') in 0.036871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.875289 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb0a56c802ccd96b1770e2d308fcb52') in 0.035475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.752962 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b699d05aefe12c7f0b5fd68ae1fdd153') in 0.039668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.750596 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d91c7b960205b961c32748c1f84cc9') in 0.035173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.397710 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89448bf26af37225c9afbe8dbe75add') in 0.035588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.185494 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7b47c38732f887593cae84ba4b6dbe') in 0.035136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.600427 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddfdae7e10d52f4407cc90fa656d537') in 0.036324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.829192 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998837177d45e9b428ff341ccf7e088a') in 0.036336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.886679 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a7ebb945c324ce5222fd392402902') in 0.036324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.666868 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbe959dfb8ae096d103e5dc28e68310') in 0.040053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.811613 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e56509e3c0f7575a6aacd6298deee5') in 0.036602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.041651 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa94297aab180228959212c96b0e0bb') in 0.035490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.395099 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196fc9a5e8b75b97b58a2922f6e9dd47') in 0.035654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.832808 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8984583a620e2034cbbe75606f05da') in 0.037523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.706614 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61d0f2dc236111e105d3d933a6b0efe') in 0.037590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.312056 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3252148e33b07b68a59a3985a322ea') in 0.035501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.792230 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff64cd1b7d5f6f890cbc463d6e701087') in 0.035313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.884900 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e58d857acf0f5a370791f76287df86') in 0.036415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.361472 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce317221737d638f3eaa3254bf5bd99e') in 0.036479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392470 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722986cc4cae721efecb8ab0b29570e3') in 0.035287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.995024 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8748d1053453e63f81e0239482940b') in 0.036481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.907538 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae281815c149ed0f9a139fedd0f60c9') in 0.037333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.266917 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b312e752386f42bf4d8803723cc50c3a') in 0.039442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.527926 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543eb2396d05182eef134a0695af2d7a') in 0.036482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.986743 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67257d1dc84c794565e8573a38ae79e4') in 0.039197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153926 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b32653b79da262c52d2031f5c39e7e6') in 0.047514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.862923 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6991b7acf98e9c867b0d7632dc942f47') in 0.059487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.688459 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2040923462ed75ef5a8a28724840f03b') in 0.040288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.495752 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3815bff8bfffda12cd9c833452c2c19') in 0.036879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.437680 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfce771b14cfa8eb83bc9896b78503b') in 0.087588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.277364 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751ca2a89c0f42a33b8c3bbb0592dd6a') in 0.047615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.826422 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b59c6e7838ec666c35841f500f60865') in 0.037611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.173575 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfaa49d698af09484d381fd7bdd6f98') in 0.037201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.914980 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c20bfd4ff48258f179a40872587d1b') in 0.039031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.401338 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d50c85e703572f4ac4698c07196292') in 0.037243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.404043 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5624d3c50c7d1457b11f1b2e0e7e12e9') in 0.038069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.953043 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5bf5d034d1b73ac4c452da51b7c15e') in 0.047806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.153216 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4c640932efc00b32775a2e4eecaaa4') in 0.044211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.929315 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefcc1e9669342f52c9b21a0a129f4df') in 0.037532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.294767 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d6a2e61a9f043d5c0022370650a4b1') in 0.035656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.876240 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47052756906ee50dffe87945699de488') in 0.037700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.167826 seconds.
+  path: Assets/Resources/SnakeHead3.prefab
+  artifactKey: Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SnakeHead3.prefab using Guid(7b94e1c76d45b934c8bb8a2855c2516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69425c704248cf5bb80b3c526815a81') in 0.038539 seconds 
