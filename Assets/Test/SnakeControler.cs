@@ -7,23 +7,26 @@ using Photon.Realtime;
 
 public class SnakeControler : MonoBehaviourPunCallbacks
 {
-    public GameObject SnakeHead;
+    [SerializeField]
+    private GameObject SnakeHead;
     public GameObject Camera;
-    public GameObject TailPrefab;
+    [SerializeField]
+    private GameObject TailPrefab;
     public float MoveSpeed;
     public float RotateSpeed;
     public List<GameObject> SnakeTail = new List<GameObject>();
     public new PhotonView photonView;
     public GameObject Nickname;
     public GameObject CurrTarget;
-    public GameObject SpectatorCamPref;
+    [SerializeField]
+    private GameObject SpectatorCamPref;
     public int Score;
-    public GameObject StatPref;
-    public GameObject StatTransform;
-    public RoomManager roomManager;
-    public int PlayerInRoom;
-    public GameObject test;
-    public int test2;
+    [SerializeField]
+    private GameObject StatPref;
+    private GameObject StatTransform;
+    [SerializeField]
+    private RoomManager roomManager;
+    private int PlayerInRoom;
 
 
 
@@ -52,7 +55,6 @@ public class SnakeControler : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        Debug.Log(photonView.Owner.NickName + "Connected (Stats)");
         SpawnOtherStats();
     }
     public override void OnEnable()
@@ -98,24 +100,14 @@ public class SnakeControler : MonoBehaviourPunCallbacks
     [PunRPC]
     public void LogScores(int _Score, string NickName)
     {
-        Debug.Log(_Score + " " + NickName);
         var tmp = GameObject.FindGameObjectsWithTag("StatPrefTag");
         for (int i = 0; i < tmp.Length; i++)
         {
             if (tmp[i].transform.GetChild(0).GetComponent<TMP_Text>().text.Contains(NickName))
             {
-                Debug.Log(NickName + " Founded ");
-                test = tmp[i].transform.GetChild(0).GetChild(0).gameObject;
-                test2 = _Score;
-                test.GetComponent<TMP_Text>().text = _Score.ToString();
+                tmp[i].transform.GetChild(0).GetChild(0).gameObject.GetComponent<TMP_Text>().text = _Score.ToString();
             }
         }
-    }
-
-    [PunRPC]
-    public void DeleteEatPrefab(GameObject pref)
-    {
-
     }
 
     private void OnCollisionEnter(Collision obj)
@@ -131,20 +123,17 @@ public class SnakeControler : MonoBehaviourPunCallbacks
                 Destroy(obj.gameObject);
             }
             if (!photonView.IsMine) return;
-            //photonView.RPC("DeleteEatPrefab", RpcTarget.All, obj.gameObject);
             if(SnakeTail.Count <= 0)
             {
                 GameObject tmp;
                 SnakeTail.Add(tmp = PhotonNetwork.Instantiate(TailPrefab.name, new Vector3(SnakeHead.transform.position.x, SnakeHead.transform.position.y, SnakeHead.transform.position.z - 0.4f), Quaternion.identity));
                 Score++;
-                //tmp.GetComponent<Rigidbody>().mass /= 2;
             }
             if(SnakeTail.Count > 0)
             {
                 GameObject tmp;
                 GameObject LastTailObject = SnakeTail[SnakeTail.Count-1];
                 SnakeTail.Add(tmp = PhotonNetwork.Instantiate(TailPrefab.name, new Vector3(LastTailObject.transform.position.x, LastTailObject.transform.position.y, LastTailObject.transform.position.z - 0.42f), Quaternion.identity));
-                //tmp.GetComponent<Rigidbody>().mass /= 2;
                 Score++;
             }
             photonView.RPC("LogScores", RpcTarget.All, Score, photonView.Owner.NickName);
@@ -158,35 +147,36 @@ public class SnakeControler : MonoBehaviourPunCallbacks
             }
             PhotonNetwork.Destroy(gameObject.transform.parent.gameObject);
             Instantiate(SpectatorCamPref, gameObject.transform.position, Quaternion.identity);
-            Debug.Log(obj.gameObject.name);
             photonView.RPC("LogScores", RpcTarget.AllBuffered, Score, PhotonNetwork.NickName);
         }
     }
     void Update()
     {
-        if(SceneManager.GetActiveScene().name == "Menu")
-        {
-            //transform.LookAt(CurrTarget.transform);
-            var targetRotation = Quaternion.LookRotation(CurrTarget.transform.position - transform.position);
+        SnakeControl();
+    }
 
-            // Smoothly rotate towards the target point.
+    public void SnakeControl()
+    {
+        if (SceneManager.GetActiveScene().name == "Menu")
+        {
+            var targetRotation = Quaternion.LookRotation(CurrTarget.transform.position - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 1 * Time.deltaTime);
             transform.Translate(Vector3.forward * MoveSpeed * Time.deltaTime);
-            
+
             return;
         }
         if (!photonView.IsMine) return;
 
-        if(PlayerInRoom < PhotonNetwork.CurrentRoom.Players.Count)
+        if (PlayerInRoom < PhotonNetwork.CurrentRoom.Players.Count)
         {
             PlayerInRoom = PhotonNetwork.CurrentRoom.Players.Count;
             SpawnOtherStats();
         }
 
-        transform.Translate(Vector3.right*MoveSpeed*Time.deltaTime);
+        transform.Translate(Vector3.right * MoveSpeed * Time.deltaTime);
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(Vector3.up*RotateSpeed*Time.deltaTime);
+            transform.Rotate(Vector3.up * RotateSpeed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.A))
         {

@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - SnakeControler
     - SnakeMenuAnim
     - TailNodeScript
+    - WinnerTextAnim
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
@@ -405,39 +406,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8736}
     - Class: 114
-      Script: {instanceID: 8844}
+      Script: {instanceID: 8846}
     - Class: 114
-      Script: {instanceID: 8862}
+      Script: {instanceID: 8864}
     - Class: 114
-      Script: {instanceID: 9008}
+      Script: {instanceID: 9010}
     - Class: 114
-      Script: {instanceID: 9202}
+      Script: {instanceID: 9204}
     - Class: 114
-      Script: {instanceID: 9384}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9450}
+      Script: {instanceID: 9452}
     - Class: 114
-      Script: {instanceID: 9724}
+      Script: {instanceID: 9726}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 9940}
+      Script: {instanceID: 9942}
     - Class: 114
-      Script: {instanceID: 10376}
+      Script: {instanceID: 10378}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 10464}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10918}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11332}
+      Script: {instanceID: 11334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -542,15 +543,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8356}
     - Class: 114
-      Script: {instanceID: 8844}
+      Script: {instanceID: 8740}
     - Class: 114
-      Script: {instanceID: 9340}
+      Script: {instanceID: 8846}
     - Class: 114
-      Script: {instanceID: 10376}
+      Script: {instanceID: 9342}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 10378}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11038}
+    - Class: 114
+      Script: {instanceID: 11154}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -878,7 +881,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: cfb1ac555498bf303d68f345073756de
+      Hash: b5b202a29690a3d6cbd9db6413fb2178
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RoomManager
@@ -998,7 +1001,7 @@ ScriptsOnlyBuild:
     className: UnityOnInputFieldEndEditMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 26d9c9d82f43a1a9a7635fb2c295b587
+      Hash: b33988ead2eb9a703eacaed857fbc037
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraController
@@ -1748,7 +1751,7 @@ ScriptsOnlyBuild:
     className: UnityOnDeselectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 932baaf5a9f6f562f45ca4072db3a357
+      Hash: 3f70bfd8b081ffa9dd1b04d8348402c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SnakeControler
@@ -1896,6 +1899,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 8a18a374a166b1f93c0eba6b7b6661d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WinnerTextAnim
   - hash:
       serializedVersion: 2
       Hash: 596956ba5a4c7f862f342d4838159063
@@ -2072,7 +2081,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 4231221ff1cba545643fe0157a6602c7
+      Hash: e3dc5feeab72f2aaa365ce4f6859a186
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyManager
@@ -2458,4 +2467,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Nioke/Snake/Build2/Snake.exe
+  playerPath: "C:/Users/Nioke/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
+    \u0441\u0442\u043E\u043B/OnlineSnakePhotonPC-master/StandaloneBuild/Snake.exe"

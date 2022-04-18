@@ -5,17 +5,12 @@ using Photon.Pun;
 
 public class RandomFoodSpawn : MonoBehaviour
 {
-    public GameObject[] FoodsObjects;
-    // Start is called before the first frame update
+    [SerializeField]
+    private GameObject[] FoodsObjects;
+
     void Start()
     {
         StartCoroutine(SpawnCorutine());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator SpawnCorutine()

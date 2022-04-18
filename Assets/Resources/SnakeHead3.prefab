@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b548c17ecf14ec4bafe1801e0df60b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsSpectate: 0
+  camSens: 0.25
 --- !u!114 &7544731334973935526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,11 +1127,7 @@ MonoBehaviour:
   Score: 0
   StatPref: {fileID: 6330775198367608251, guid: a039517915b9e1841b2a613dbd8f7df5,
     type: 3}
-  StatTransform: {fileID: 0}
   roomManager: {fileID: 0}
-  PlayerInRoom: 0
-  test: {fileID: 0}
-  test2: 0
 --- !u!4 &9130947140551139377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 14ead9c2df5678a459dba74755f6a2a5,

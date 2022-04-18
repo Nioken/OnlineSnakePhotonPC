@@ -412,10 +412,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.0b13/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
--r:"C:/Users/Nioke/Snake/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"C:/Users/Nioke/Snake/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"C:/Users/Nioke/Snake/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"C:/Users/Nioke/Snake/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/Nioke/OneDrive/Рабочий стол/OnlineSnakePhotonPC-master/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/Nioke/OneDrive/Рабочий стол/OnlineSnakePhotonPC-master/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/Nioke/OneDrive/Рабочий стол/OnlineSnakePhotonPC-master/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Users/Nioke/OneDrive/Рабочий стол/OnlineSnakePhotonPC-master/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/StandaloneWindows64_CodeGen/Unity.Burst.ref.dll"
 "Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/AssemblyResolver.cs"
 "Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/BurstILPostProcessor.cs"
@@ -425,7 +425,7 @@
 -langversion:9.0
 /unsafe+
 /deterministic
-/optimize-
+/optimize+
 /debug:portable
 /nologo
 /RuntimeMetadataVersion:v4.0.30319

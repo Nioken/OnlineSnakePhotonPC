@@ -10,26 +10,47 @@ using Photon.Chat;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
-    public List<GameObject> MenuGUI = new List<GameObject>();
-    public TMP_InputField NickField;
-    public TMP_Text MaxPlayersText;
-    public Slider MaxPlayersSlider;
-    public TMP_InputField RoomNameField;
-    public GameObject RoomCreationGUI;
-    public GameObject RoomListGUI;
-    public List<RoomInfo> RoomList = new List<RoomInfo>();
-    public GameObject RoomInfoPref;
-    public GameObject ScrollContent;
-    public GameObject PlayersReadyGUI;
-    public GameObject PlayerReadyPref;
-    public float InfosOffset = 0;
-    public List<GameObject> RoomInfosPrefabs = new List<GameObject>();
-    public List<GameObject> PlayerReadyList = new List<GameObject>();
-    public GameObject PlayersScrollContent;
+    [SerializeField]
+    private List<GameObject> MenuGUI = new List<GameObject>();
+    [SerializeField]
+    private TMP_InputField NickField;
+    [SerializeField]
+    private TMP_Text MaxPlayersText;
+    [SerializeField]
+    private Slider MaxPlayersSlider;
+    [SerializeField]
+    private TMP_InputField RoomNameField;
+    [SerializeField]
+    private GameObject RoomCreationGUI;
+    [SerializeField]
+    private GameObject RoomListGUI;
+    [SerializeField]
+    private List<RoomInfo> RoomList = new List<RoomInfo>();
+    [SerializeField]
+    private GameObject RoomInfoPref;
+    [SerializeField]
+    private GameObject ScrollContent;
+    [SerializeField]
+    private GameObject PlayersReadyGUI;
+    [SerializeField]
+    private GameObject PlayerReadyPref;
+    [SerializeField]
+    private float InfosOffset = 0;
+    [SerializeField]
+    private List<GameObject> RoomInfosPrefabs = new List<GameObject>();
+    [SerializeField]
+    private List<GameObject> PlayerReadyList = new List<GameObject>();
+    [SerializeField]
+    private GameObject PlayersScrollContent;
+    [SerializeField]
     private int PlayersInRoom;
+    [SerializeField]
     private int ReadyPlayers;
-    public GameObject CounterText;
+    [SerializeField]
+    private GameObject CounterText;
+    [SerializeField]
     private Vector2 sizeDelta;
+    [SerializeField]
     private bool IsButtonHiden = false;
 
 

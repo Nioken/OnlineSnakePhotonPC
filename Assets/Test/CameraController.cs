@@ -8,11 +8,10 @@ using System.Runtime.InteropServices;
 
 public class CameraController : MonoBehaviourPunCallbacks
 {
-
-    float camSens = 0.25f; //How sensitive it with mouse
+    [SerializeField]
+    private float camSens = 0.25f;
     private Vector3 lastMouse = new Vector3(255, 255, 255);
-    public bool IsSpectate;
-    // Start is called before the first frame update
+    private bool IsSpectate;
     void Start()
     {
         if(SceneManager.GetActiveScene().name != "Menu")
@@ -32,27 +31,15 @@ public class CameraController : MonoBehaviourPunCallbacks
             }
         }
     }
-    IEnumerator SetNicknamesTargetCorutine()
-    {
-            Debug.Log("Wait 3");
-        yield return new WaitForSeconds(3);
-            Debug.Log("waited");
-            if (gameObject.GetComponent<PhotonView>().IsMine)
-            {
-                Debug.Log("StartFind Nickanmes");
-                GameObject[] NickNames = GameObject.FindGameObjectsWithTag("Nickname");
-                for (int i = 0; i < NickNames.Length; i++)
-                {
-                    NickNames[i].GetComponent<NicknameLookAt>().Target = gameObject;
-                }
-            }
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-       
+
+        CameraControl();
+    }
+
+    public void CameraControl()
+    {
         if (!IsSpectate)
         {
             if (!gameObject.GetComponent<PhotonView>().IsMine) return;
@@ -74,7 +61,7 @@ public class CameraController : MonoBehaviourPunCallbacks
 
             if (Input.GetKey(KeyCode.W))
             {
-                if(!Physics.Raycast(gameObject.transform.position, gameObject.transform.forward, 1.2f))
+                if (!Physics.Raycast(gameObject.transform.position, gameObject.transform.forward, 1.2f))
                     gameObject.transform.Translate(Vector3.forward * 10 * Time.deltaTime);
             }
             if (Input.GetKey(KeyCode.S))
@@ -96,13 +83,11 @@ public class CameraController : MonoBehaviourPunCallbacks
         }
     }
     public override void OnPlayerEnteredRoom(Player newPlayer)    {
-        Debug.Log("Corutine start");
         StartCoroutine(WaitCorutine());
     }
     IEnumerator WaitCorutine()
     {
         yield return new WaitForSeconds(3);
-        Debug.Log("FindStart");
         if (gameObject.GetComponent<PhotonView>().IsMine)
         {
             GameObject[] NickNames = GameObject.FindGameObjectsWithTag("Nickname");
@@ -111,5 +96,18 @@ public class CameraController : MonoBehaviourPunCallbacks
                 NickNames[i].GetComponent<NicknameLookAt>().Target = gameObject;
             }
         }
+    }
+    IEnumerator SetNicknamesTargetCorutine()
+    {
+        yield return new WaitForSeconds(3);
+            if (gameObject.GetComponent<PhotonView>().IsMine)
+            {
+                GameObject[] NickNames = GameObject.FindGameObjectsWithTag("Nickname");
+                for (int i = 0; i < NickNames.Length; i++)
+                {
+                    NickNames[i].GetComponent<NicknameLookAt>().Target = gameObject;
+                }
+            }
+        
     }
 }

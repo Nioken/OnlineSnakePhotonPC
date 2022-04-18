@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class TailNodeScript : MonoBehaviour
 {
-    public SnakeControler _snakeControler;
+    [SerializeField]
+    private SnakeControler _snakeControler;
     public GameObject TargetObject;
     void Start()
     {
@@ -21,8 +22,12 @@ public class TailNodeScript : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        MoveTailNode();
+    }
+
+    public void MoveTailNode()
     {
         if (SceneManager.GetActiveScene().name == "Menu")
         {
